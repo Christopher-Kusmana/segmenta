@@ -1,0 +1,2697 @@
+[
+  {
+    "start": 15.18,
+    "end": 16.86,
+    "text": "Right, let's get started."
+  },
+  {
+    "start": 16.86,
+    "end": 25.18,
+    "text": "So when I covered last week or last session was how to create a CV using"
+  },
+  {
+    "start": 25.18,
+    "end": 26.02,
+    "text": "Quarto."
+  },
+  {
+    "start": 26.02,
+    "end": 31.02,
+    "text": "And really the point of that was to just demonstrate the structure of a"
+  },
+  {
+    "start": 31.02,
+    "end": 36.42,
+    "text": "Quarto document where it involves a gamma header and then just mark"
+  },
+  {
+    "start": 36.42,
+    "end": 36.94,
+    "text": "down."
+  },
+  {
+    "start": 36.94,
+    "end": 41.82,
+    "text": "That's that's really all there is to portotes very similar to our mark"
+  },
+  {
+    "start": 41.82,
+    "end": 42.62,
+    "text": "down."
+  },
+  {
+    "start": 42.62,
+    "end": 45.14,
+    "text": "The only thing that you have to kind of get to know is"
+  },
+  {
+    "start": 45.14,
+    "end": 47.7,
+    "text": "the yam mold settings here."
+  },
+  {
+    "start": 47.7,
+    "end": 52.74,
+    "text": "Or like what can you put according to each document or each document"
+  },
+  {
+    "start": 52.74,
+    "end": 55.7,
+    "text": "they're going to have different yam mold configurations."
+  },
+  {
+    "start": 55.7,
+    "end": 60.74,
+    "text": "But and then how to host this on GitHub."
+  },
+  {
+    "start": 60.74,
+    "end": 64.1,
+    "text": "So hopefully you should have this on GitHub."
+  },
+  {
+    "start": 64.1,
+    "end": 66.42,
+    "text": "You could do something like it status."
+  },
+  {
+    "start": 66.42,
+    "end": 71.54,
+    "text": "And then you can see that everything's up to date in my main folder."
+  },
+  {
+    "start": 71.54,
+    "end": 74.26,
+    "text": "And it should be somewhere around here."
+  },
+  {
+    "start": 74.26,
+    "end": 76.5,
+    "text": "That's 140xp."
+  },
+  {
+    "start": 76.5,
+    "end": 82.02,
+    "text": "Now I can look at all the files that I have not just locally, but on my GitHub"
+  },
+  {
+    "start": 82.02,
+    "end": 83.7,
+    "text": "repository."
+  },
+  {
+    "start": 83.7,
+    "end": 84.66,
+    "text": "It should be private."
+  },
+  {
+    "start": 84.66,
+    "end": 86.02,
+    "text": "It could be public if you want."
+  },
+  {
+    "start": 86.02,
+    "end": 90.42,
+    "text": "But now that you're a little more familiar with GitHub and how to store"
+  },
+  {
+    "start": 90.42,
+    "end": 95.86,
+    "text": "things and repositories, let's go on into building the website, which is the"
+  },
+  {
+    "start": 95.86,
+    "end": 97.7,
+    "text": "project for the class."
+  },
+  {
+    "start": 97.7,
+    "end": 104.18,
+    "text": "You could use the CV template to put the CV in your personal website."
+  },
+  {
+    "start": 104.26,
+    "end": 120.02,
+    "text": "Similar to how I have it where you could access my CV directly from the website."
+  },
+  {
+    "start": 120.02,
+    "end": 122.26,
+    "text": "Sorry, I think I understand you a little."
+  },
+  {
+    "start": 122.26,
+    "end": 124.18,
+    "text": "All right."
+  },
+  {
+    "start": 124.18,
+    "end": 128.42,
+    "text": "All right, so let's go on to creating the website."
+  },
+  {
+    "start": 128.42,
+    "end": 130.82,
+    "text": "We're not going to be adding too much content to it."
+  },
+  {
+    "start": 130.82,
+    "end": 132.98,
+    "text": "We just want to set everything up."
+  },
+  {
+    "start": 132.98,
+    "end": 136.74,
+    "text": "We will need to have it not just hosted on GitHub."
+  },
+  {
+    "start": 136.74,
+    "end": 143.22,
+    "text": "We're also going to need to configure it such that it's on nullify and"
+  },
+  {
+    "start": 143.22,
+    "end": 147.3,
+    "text": "nullify is what we're going to use to host the website."
+  },
+  {
+    "start": 147.3,
+    "end": 151.38,
+    "text": "So log in and then log in with GitHub."
+  },
+  {
+    "start": 151.38,
+    "end": 153.7,
+    "text": "This should be your GitHub profile."
+  },
+  {
+    "start": 153.7,
+    "end": 160.66,
+    "text": "And what we're going to need to do is get nullify the permissions to access our"
+  },
+  {
+    "start": 160.66,
+    "end": 163.3,
+    "text": "repository where we have the website."
+  },
+  {
+    "start": 163.3,
+    "end": 167.54,
+    "text": "As you can see here, I have a few websites posted through it."
+  },
+  {
+    "start": 167.54,
+    "end": 171.62,
+    "text": "So let's do it ourselves."
+  },
+  {
+    "start": 171.62,
+    "end": 175.06,
+    "text": "I would recommend putting this as a new project."
+  },
+  {
+    "start": 175.06,
+    "end": 177.78,
+    "text": "So right now, you have a stats 140 project, hopefully."
+  },
+  {
+    "start": 177.78,
+    "end": 183.7,
+    "text": "And then let's just create a new entire project directly for this website."
+  },
+  {
+    "start": 183.7,
+    "end": 190.26,
+    "text": "So new project, new directory, and then what we're going to do is create a"
+  },
+  {
+    "start": 190.26,
+    "end": 191.54,
+    "text": "Quarto website."
+  },
+  {
+    "start": 191.54,
+    "end": 197.62,
+    "text": "So again, new project, new directory, and then in Quarto website."
+  },
+  {
+    "start": 197.62,
+    "end": 200.58,
+    "text": "Remember, a project is just a folder in your computer."
+  },
+  {
+    "start": 200.58,
+    "end": 205.94,
+    "text": "So it's an enclosed environment directly for this project."
+  },
+  {
+    "start": 205.94,
+    "end": 208.02,
+    "text": "Here, I'm going to call it personal website."
+  },
+  {
+    "start": 208.02,
+    "end": 209.38,
+    "text": "You can call it whatever you want."
+  },
+  {
+    "start": 209.38,
+    "end": 211.14,
+    "text": "And this is just the name of the folder."
+  },
+  {
+    "start": 211.14,
+    "end": 213.86,
+    "text": "It's not the name of your website or anything like that."
+  },
+  {
+    "start": 213.86,
+    "end": 216.26,
+    "text": "And I'm just going to put in my desktop repository."
+  },
+  {
+    "start": 216.26,
+    "end": 220.5,
+    "text": "And my desktop here, create a good repository."
+  },
+  {
+    "start": 220.5,
+    "end": 221.54,
+    "text": "That's what you need."
+  },
+  {
+    "start": 221.54,
+    "end": 223.46,
+    "text": "And don't worry about any of these."
+  },
+  {
+    "start": 223.46,
+    "end": 227.38,
+    "text": "And then let's create a website project."
+  },
+  {
+    "start": 227.38,
+    "end": 232.1,
+    "text": "Now, if you're using art, they provide our studio in particular,"
+  },
+  {
+    "start": 232.1,
+    "end": 236.34,
+    "text": "provides a nice template for you to get started on the website."
+  },
+  {
+    "start": 236.34,
+    "end": 239.46,
+    "text": "So, but again, you don't need to be using our studio."
+  },
+  {
+    "start": 239.46,
+    "end": 241.06,
+    "text": "You can be using VS code."
+  },
+  {
+    "start": 241.06,
+    "end": 244.34,
+    "text": "You just have to kind of create this stuff on your own."
+  },
+  {
+    "start": 244.34,
+    "end": 248.1,
+    "text": "So this is what it should look like."
+  },
+  {
+    "start": 248.1,
+    "end": 252.18,
+    "text": "If you go to my desktop, there should be like a personal website folder here."
+  },
+  {
+    "start": 252.18,
+    "end": 254.58,
+    "text": "And there's only four files."
+  },
+  {
+    "start": 254.58,
+    "end": 258.66,
+    "text": "Remember, this project is just to, you should always click on this file"
+  },
+  {
+    "start": 258.66,
+    "end": 261.54,
+    "text": "to initialize the art project environment,"
+  },
+  {
+    "start": 261.54,
+    "end": 264.66,
+    "text": "so you're in the correct directory."
+  },
+  {
+    "start": 264.66,
+    "end": 269.94,
+    "text": "And when you pre-use this template, it creates four files."
+  },
+  {
+    "start": 269.94,
+    "end": 272.34,
+    "text": "The style CSS would be no CSS."
+  },
+  {
+    "start": 272.34,
+    "end": 278.66,
+    "text": "You can configure it so you can customize the overall theme of your website."
+  },
+  {
+    "start": 278.66,
+    "end": 281.78,
+    "text": "Like the font, the font size, the color, the color schemes."
+  },
+  {
+    "start": 281.78,
+    "end": 290.02,
+    "text": "And you could customize your website aesthetically through there."
+  },
+  {
+    "start": 290.02,
+    "end": 296.66,
+    "text": "Index is where the main website page, the landing page is."
+  },
+  {
+    "start": 296.66,
+    "end": 300.5,
+    "text": "And then you can configure it to redirect you to other pages, for example,"
+  },
+  {
+    "start": 300.5,
+    "end": 301.46,
+    "text": "the about."
+  },
+  {
+    "start": 301.46,
+    "end": 308.26,
+    "text": "And then the Quarto Yamo, that's where the configuration of the website structure lies in."
+  },
+  {
+    "start": 308.26,
+    "end": 311.38,
+    "text": "And I'll explain each one of these individually."
+  },
+  {
+    "start": 311.38,
+    "end": 317.46,
+    "text": "But once you create template, it should create these four files for you."
+  },
+  {
+    "start": 317.46,
+    "end": 319.22,
+    "text": "And let's see what this looks like."
+  },
+  {
+    "start": 319.22,
+    "end": 322.1,
+    "text": "So index is remember the landing page."
+  },
+  {
+    "start": 322.1,
+    "end": 325.3,
+    "text": "So like when you go to your website.com,"
+  },
+  {
+    "start": 325.38,
+    "end": 328.58,
+    "text": "this is the first thing that people are going to see."
+  },
+  {
+    "start": 328.58,
+    "end": 330.1,
+    "text": "Right now it's nothing."
+  },
+  {
+    "start": 330.1,
+    "end": 334.1,
+    "text": "It's just a Quarto document, right QMD, QMD."
+  },
+  {
+    "start": 334.1,
+    "end": 339.06,
+    "text": "And the beauty about this is that we're only going to be working with QMD files."
+  },
+  {
+    "start": 339.06,
+    "end": 342.02,
+    "text": "So once you know Quarto, which is just marked down,"
+  },
+  {
+    "start": 342.02,
+    "end": 344.82,
+    "text": "you can easily build websites."
+  },
+  {
+    "start": 344.82,
+    "end": 349.54,
+    "text": "You don't need to know too much about website creating and all these frameworks."
+  },
+  {
+    "start": 349.54,
+    "end": 352.58,
+    "text": "And creating websites can be very complicated."
+  },
+  {
+    "start": 352.58,
+    "end": 353.94,
+    "text": "I will script and things like that."
+  },
+  {
+    "start": 353.94,
+    "end": 359.54,
+    "text": "So you'll need difficulty will kind of be navigating this Yamo file."
+  },
+  {
+    "start": 359.54,
+    "end": 364.82,
+    "text": "But otherwise, it's just a bunch of Quarto documents."
+  },
+  {
+    "start": 364.82,
+    "end": 365.14,
+    "text": "All right."
+  },
+  {
+    "start": 365.14,
+    "end": 371.7,
+    "text": "So this is the template that's in the terminal, not the console."
+  },
+  {
+    "start": 371.7,
+    "end": 376.81,
+    "text": "You're going to do Quarto render."
+  },
+  {
+    "start": 376.81,
+    "end": 380.33,
+    "text": "And this is going to render all of your files in your website."
+  },
+  {
+    "start": 380.33,
+    "end": 383.85,
+    "text": "As you can see here, it rendered the index QMD,"
+  },
+  {
+    "start": 383.85,
+    "end": 385.45,
+    "text": "but about QMD."
+  },
+  {
+    "start": 385.45,
+    "end": 389.21,
+    "text": "And then it created a site folder."
+  },
+  {
+    "start": 389.21,
+    "end": 390.81,
+    "text": "So each time you do Quarto render,"
+  },
+  {
+    "start": 390.81,
+    "end": 396.25,
+    "text": "it's going to run every single file in your website directory."
+  },
+  {
+    "start": 396.25,
+    "end": 399.13,
+    "text": "And then run everything inside there."
+  },
+  {
+    "start": 399.13,
+    "end": 401.13,
+    "text": "So we have a code that takes a while to run."
+  },
+  {
+    "start": 401.13,
+    "end": 405.21,
+    "text": "It's going to take that much time to render it."
+  },
+  {
+    "start": 405.21,
+    "end": 408.41,
+    "text": "So do not touch the site folder."
+  },
+  {
+    "start": 408.49,
+    "end": 411.85,
+    "text": "This is created for you."
+  },
+  {
+    "start": 411.85,
+    "end": 412.97,
+    "text": "Let's connect the beauty."
+  },
+  {
+    "start": 412.97,
+    "end": 417.21,
+    "text": "All we have to do is Quarto render and then do its thing."
+  },
+  {
+    "start": 417.21,
+    "end": 421.77,
+    "text": "So it will automatically create the HTML files for you"
+  },
+  {
+    "start": 421.77,
+    "end": 424.41,
+    "text": "that you would typically need to create"
+  },
+  {
+    "start": 424.41,
+    "end": 426.73,
+    "text": "if you're building a website from scratch."
+  },
+  {
+    "start": 426.73,
+    "end": 430.01,
+    "text": "So let's look at what that looks like."
+  },
+  {
+    "start": 430.01,
+    "end": 433.45,
+    "text": "So Quarto preview."
+  },
+  {
+    "start": 433.45,
+    "end": 436.65,
+    "text": "And this is what our website looks like right now."
+  },
+  {
+    "start": 436.65,
+    "end": 441.53,
+    "text": "So there's really not much to it, just a personal website."
+  },
+  {
+    "start": 441.53,
+    "end": 444.41,
+    "text": "And this is the landing page, the index file."
+  },
+  {
+    "start": 444.41,
+    "end": 446.01,
+    "text": "So this is a Quarto website."
+  },
+  {
+    "start": 446.01,
+    "end": 448.73,
+    "text": "And what I like to do is to learn these stuff,"
+  },
+  {
+    "start": 448.73,
+    "end": 450.89,
+    "text": "it's just put them side by side, put the website."
+  },
+  {
+    "start": 450.89,
+    "end": 454.41,
+    "text": "And then the files on the side and see how your changes are being"
+  },
+  {
+    "start": 454.41,
+    "end": 455.21,
+    "text": "affected."
+  },
+  {
+    "start": 455.21,
+    "end": 457.69,
+    "text": "For example, 1 plus 1 equals 2."
+  },
+  {
+    "start": 457.69,
+    "end": 459.45,
+    "text": "I could change this to 3."
+  },
+  {
+    "start": 459.45,
+    "end": 460.49,
+    "text": "Say it."
+  },
+  {
+    "start": 460.49,
+    "end": 463.69,
+    "text": "It's going to be looking for changes when we do Quarto preview."
+  },
+  {
+    "start": 463.69,
+    "end": 465.85,
+    "text": "And you see how they automatically updated"
+  },
+  {
+    "start": 465.85,
+    "end": 467.77,
+    "text": "my website right now is just local host."
+  },
+  {
+    "start": 467.77,
+    "end": 469.77,
+    "text": "It's not posted anywhere."
+  },
+  {
+    "start": 469.77,
+    "end": 474.01,
+    "text": "If we go to the about page, which is just a separate tab."
+  },
+  {
+    "start": 474.01,
+    "end": 477.45,
+    "text": "For example, here, you'll start to notice that each tab"
+  },
+  {
+    "start": 477.45,
+    "end": 479.13,
+    "text": "corresponds to a new file."
+  },
+  {
+    "start": 479.13,
+    "end": 482.89,
+    "text": "So about the site, here we have 1 plus 1."
+  },
+  {
+    "start": 482.89,
+    "end": 484.89,
+    "text": "And then you can make this your about page."
+  },
+  {
+    "start": 484.89,
+    "end": 488.65,
+    "text": "I recommend just having the homepage where this is your about."
+  },
+  {
+    "start": 488.65,
+    "end": 492.97,
+    "text": "And then this is the title of your website, personal website."
+  },
+  {
+    "start": 492.97,
+    "end": 497.29,
+    "text": "And that's really all there is to it for now."
+  },
+  {
+    "start": 497.29,
+    "end": 501.85,
+    "text": "Here, let's look at the Yamafile."
+  },
+  {
+    "start": 501.85,
+    "end": 506.01,
+    "text": "This is what's used to customize the structure of your website."
+  },
+  {
+    "start": 506.01,
+    "end": 510.33,
+    "text": "So for example, the title, I don't want it to be personal website."
+  },
+  {
+    "start": 510.33,
+    "end": 512.25,
+    "text": "I wanted it to be something else."
+  },
+  {
+    "start": 512.25,
+    "end": 514.49,
+    "text": "For example, I could just get rid of it."
+  },
+  {
+    "start": 514.49,
+    "end": 517.13,
+    "text": "Let's see what happens when I get rid of the title."
+  },
+  {
+    "start": 517.13,
+    "end": 519.13,
+    "text": "Click on Save and it's gone."
+  },
+  {
+    "start": 519.13,
+    "end": 522.25,
+    "text": "And I prefer that if you want to have a title,"
+  },
+  {
+    "start": 522.25,
+    "end": 523.05,
+    "text": "you can."
+  },
+  {
+    "start": 523.05,
+    "end": 529.77,
+    "text": "You just have to specify under the website section of the Yamafile file."
+  },
+  {
+    "start": 529.77,
+    "end": 532.65,
+    "text": "So the project, what kind of project is this?"
+  },
+  {
+    "start": 532.65,
+    "end": 534.41,
+    "text": "It's going to be a website."
+  },
+  {
+    "start": 534.41,
+    "end": 538.17,
+    "text": "And then here, you specify the structure for your website."
+  },
+  {
+    "start": 538.17,
+    "end": 541.69,
+    "text": "For example, the title, the nav bar is the navigation bar."
+  },
+  {
+    "start": 541.69,
+    "end": 544.41,
+    "text": "If you want to have the navigation bar, you can."
+  },
+  {
+    "start": 544.41,
+    "end": 547.85,
+    "text": "So let's get rid of the navigation bar and see what happens."
+  },
+  {
+    "start": 547.85,
+    "end": 551.45,
+    "text": "When it click on Save, you'll see that the navigation bar is"
+  },
+  {
+    "start": 551.45,
+    "end": 553.93,
+    "text": "disappeared and now we don't have access to be"
+  },
+  {
+    "start": 553.93,
+    "end": 558.25,
+    "text": "about or like the little search bar or other things that"
+  },
+  {
+    "start": 558.25,
+    "end": 559.45,
+    "text": "was included in there."
+  },
+  {
+    "start": 559.45,
+    "end": 563.37,
+    "text": "So let's put the nav bar back again."
+  },
+  {
+    "start": 563.37,
+    "end": 566.01,
+    "text": "And here you'll see that it's called A-Triff."
+  },
+  {
+    "start": 566.01,
+    "end": 568.25,
+    "text": "Let's just click on Save to see what it looks like again."
+  },
+  {
+    "start": 568.25,
+    "end": 572.73,
+    "text": "So now I have my personal website at the home tab and the about tab."
+  },
+  {
+    "start": 572.73,
+    "end": 574.97,
+    "text": "Let's get rid of the name."
+  },
+  {
+    "start": 574.97,
+    "end": 578.41,
+    "text": "Let's just leave it for now."
+  },
+  {
+    "start": 578.41,
+    "end": 581.61,
+    "text": "And on the left hand side of the navigation bar,"
+  },
+  {
+    "start": 581.61,
+    "end": 584.33,
+    "text": "I have two tabs honed and about."
+  },
+  {
+    "start": 584.33,
+    "end": 586.17,
+    "text": "You can change it to right, for example."
+  },
+  {
+    "start": 586.17,
+    "end": 591.21,
+    "text": "Let's see what happens if I click on change left to right."
+  },
+  {
+    "start": 591.21,
+    "end": 594.81,
+    "text": "And there you go, you see how we changed very easily from home"
+  },
+  {
+    "start": 594.81,
+    "end": 596.81,
+    "text": "about to the right section."
+  },
+  {
+    "start": 596.81,
+    "end": 601.61,
+    "text": "And I still have the search here where you could search for files,"
+  },
+  {
+    "start": 601.61,
+    "end": 605.45,
+    "text": "sections, keywords, and things like that."
+  },
+  {
+    "start": 605.45,
+    "end": 608.17,
+    "text": "So let's change it back to left so the right hand side is not"
+  },
+  {
+    "start": 608.17,
+    "end": 613.77,
+    "text": "to busy so let's change it to left, H-Ref."
+  },
+  {
+    "start": 613.77,
+    "end": 618.01,
+    "text": "Now here, I don't know what H-Ref stands for,"
+  },
+  {
+    "start": 618.01,
+    "end": 624.17,
+    "text": "but I know it's to reference the document index QMD."
+  },
+  {
+    "start": 624.17,
+    "end": 626.33,
+    "text": "I don't want it to be home."
+  },
+  {
+    "start": 626.33,
+    "end": 629.77,
+    "text": "So look what happens if I get rid of."
+  },
+  {
+    "start": 629.77,
+    "end": 634.81,
+    "text": "You see how it's personal website because the title of this index file"
+  },
+  {
+    "start": 634.81,
+    "end": 636.25,
+    "text": "is personal website."
+  },
+  {
+    "start": 636.25,
+    "end": 638.33,
+    "text": "So if I have to change this to something else,"
+  },
+  {
+    "start": 638.33,
+    "end": 643.37,
+    "text": "for example, my name and I click on save,"
+  },
+  {
+    "start": 643.37,
+    "end": 646.65,
+    "text": "it's going to change it to that name."
+  },
+  {
+    "start": 646.65,
+    "end": 649.29,
+    "text": "But let's say for example, I don't want that,"
+  },
+  {
+    "start": 649.29,
+    "end": 652.01,
+    "text": "then I could do under H-Ref."
+  },
+  {
+    "start": 652.01,
+    "end": 656.17,
+    "text": "I could do text and call this home."
+  },
+  {
+    "start": 656.17,
+    "end": 660.33,
+    "text": "And now the title of this reference link is going to be home,"
+  },
+  {
+    "start": 660.33,
+    "end": 664.57,
+    "text": "rather than the title of the personal website,"
+  },
+  {
+    "start": 664.57,
+    "end": 667.85,
+    "text": "or the index file."
+  },
+  {
+    "start": 668.01,
+    "end": 671.29,
+    "text": "And then if you don't specify, for example,"
+  },
+  {
+    "start": 671.29,
+    "end": 674.41,
+    "text": "here I'm just referencing the about QMD,"
+  },
+  {
+    "start": 674.41,
+    "end": 679.21,
+    "text": "it's going to use the name of the file."
+  },
+  {
+    "start": 679.21,
+    "end": 681.05,
+    "text": "So that's why it's called about."
+  },
+  {
+    "start": 681.05,
+    "end": 687.05,
+    "text": "So if I go to about, it's going to use a title which is capital about."
+  },
+  {
+    "start": 687.05,
+    "end": 690.09,
+    "text": "I don't want that, let's just just to practice,"
+  },
+  {
+    "start": 690.09,
+    "end": 693.53,
+    "text": "let's do H-Ref."
+  },
+  {
+    "start": 693.61,
+    "end": 698.49,
+    "text": "And I'm going to reference the B-O-Bouth, or to document."
+  },
+  {
+    "start": 698.49,
+    "end": 707.16,
+    "text": "And then I'm going to call it information on it."
+  },
+  {
+    "start": 707.16,
+    "end": 709.0,
+    "text": "Yeah."
+  },
+  {
+    "start": 709.0,
+    "end": 709.72,
+    "text": "There you go."
+  },
+  {
+    "start": 709.72,
+    "end": 716.76,
+    "text": "So you could see how the reference link gets changed accordingly."
+  },
+  {
+    "start": 716.76,
+    "end": 724.68,
+    "text": "And then the title of the file is going to be shown here."
+  },
+  {
+    "start": 725.4,
+    "end": 727.4,
+    "text": "Which I kind of don't like."
+  },
+  {
+    "start": 727.4,
+    "end": 732.28,
+    "text": "So I always tend to just get rid of it, right?"
+  },
+  {
+    "start": 732.28,
+    "end": 733.4,
+    "text": "The G-L-M-E-D title."
+  },
+  {
+    "start": 733.4,
+    "end": 738.92,
+    "text": "Like if you have the reference link as information,"
+  },
+  {
+    "start": 738.92,
+    "end": 743.72,
+    "text": "you kind of assume that everything regarding this is like some information."
+  },
+  {
+    "start": 743.72,
+    "end": 752.82,
+    "text": "Let's just change it back to about QMD, see what happens."
+  },
+  {
+    "start": 752.82,
+    "end": 776.66,
+    "text": "Oh, oh, oh, interesting."
+  },
+  {
+    "start": 776.66,
+    "end": 785.99,
+    "text": "So if you don't have a title, it's just going to use the title of the file,"
+  },
+  {
+    "start": 785.99,
+    "end": 789.59,
+    "text": "which is the HTML, this is just, all right."
+  },
+  {
+    "start": 789.59,
+    "end": 797.11,
+    "text": "So that's actually give a title to us about 1, 2, 3."
+  },
+  {
+    "start": 797.11,
+    "end": 801.43,
+    "text": "And then 1, 2, 3, everything between this is a gamma setting."
+  },
+  {
+    "start": 801.43,
+    "end": 808.55,
+    "text": "So I'm going to use a title, and then just call it, right?"
+  },
+  {
+    "start": 808.55,
+    "end": 814.17,
+    "text": "There you go."
+  },
+  {
+    "start": 814.17,
+    "end": 820.49,
+    "text": "And then here, under format, it's going to say the theme that you're using."
+  },
+  {
+    "start": 820.49,
+    "end": 823.29,
+    "text": "The default theme is pretty nice."
+  },
+  {
+    "start": 823.29,
+    "end": 825.37,
+    "text": "You could change it if you want."
+  },
+  {
+    "start": 825.37,
+    "end": 827.53,
+    "text": "But let's just see what kind of themes are out there."
+  },
+  {
+    "start": 827.53,
+    "end": 829.77,
+    "text": "So we're told themes."
+  },
+  {
+    "start": 829.77,
+    "end": 832.81,
+    "text": "And then here you click on HTML Deming."
+  },
+  {
+    "start": 832.81,
+    "end": 838.17,
+    "text": "And by default, well, at least for the default in the RStudio is Cosmo,"
+  },
+  {
+    "start": 838.17,
+    "end": 841.93,
+    "text": "which is the Cosmo Boots Watch theme."
+  },
+  {
+    "start": 841.93,
+    "end": 845.53,
+    "text": "You could change it to Pandog, no themes, or the default theme."
+  },
+  {
+    "start": 845.53,
+    "end": 848.65,
+    "text": "So let's just see what the default looks like."
+  },
+  {
+    "start": 848.65,
+    "end": 849.93,
+    "text": "I think it's a little ugly."
+  },
+  {
+    "start": 849.93,
+    "end": 853.21,
+    "text": "So it's good that they changed it to Cosmo."
+  },
+  {
+    "start": 853.21,
+    "end": 856.49,
+    "text": "So let's just see what the default theme looks like."
+  },
+  {
+    "start": 856.49,
+    "end": 858.73,
+    "text": "And then going back to our website, this is what"
+  },
+  {
+    "start": 858.73,
+    "end": 861.37,
+    "text": "it, this is what the Cosmo theme looks like."
+  },
+  {
+    "start": 861.37,
+    "end": 864.41,
+    "text": "And now the default, oh, sorry, cancel."
+  },
+  {
+    "start": 864.41,
+    "end": 867.29,
+    "text": "You need to save right here."
+  },
+  {
+    "start": 867.29,
+    "end": 871.61,
+    "text": "And that's what the, I guess they've updated it."
+  },
+  {
+    "start": 871.61,
+    "end": 874.49,
+    "text": "Before used to be very ugly, the default theme."
+  },
+  {
+    "start": 874.49,
+    "end": 877.53,
+    "text": "So the default looks OK if that's what you like."
+  },
+  {
+    "start": 877.53,
+    "end": 882.33,
+    "text": "You could also change the color of the navigation bar."
+  },
+  {
+    "start": 882.33,
+    "end": 886.01,
+    "text": "And you would have to do that under the Styles CSS."
+  },
+  {
+    "start": 886.01,
+    "end": 889.85,
+    "text": "So right now, there's nothing in the CSS styles,"
+  },
+  {
+    "start": 889.85,
+    "end": 893.13,
+    "text": "but you can of course change it accordingly."
+  },
+  {
+    "start": 893.13,
+    "end": 899.11,
+    "text": "Let's go back to Cosmo."
+  },
+  {
+    "start": 899.11,
+    "end": 900.79,
+    "text": "Looks a little cleaner."
+  },
+  {
+    "start": 900.79,
+    "end": 905.11,
+    "text": "And then here you could just customize it even further."
+  },
+  {
+    "start": 905.11,
+    "end": 908.07,
+    "text": "We're not going to get into that right now."
+  },
+  {
+    "start": 908.07,
+    "end": 911.83,
+    "text": "We just want to be able to host our website"
+  },
+  {
+    "start": 911.83,
+    "end": 916.31,
+    "text": "and successfully on nullify."
+  },
+  {
+    "start": 916.31,
+    "end": 921.27,
+    "text": "So this is just the structure of the websites."
+  },
+  {
+    "start": 921.27,
+    "end": 922.95,
+    "text": "Let's get rid of the title."
+  },
+  {
+    "start": 922.95,
+    "end": 924.63,
+    "text": "Let's just be right now."
+  },
+  {
+    "start": 924.63,
+    "end": 927.83,
+    "text": "We don't want to miss too much with the configurations."
+  },
+  {
+    "start": 927.83,
+    "end": 929.11,
+    "text": "We'll do that next week."
+  },
+  {
+    "start": 929.11,
+    "end": 931.83,
+    "text": "Let's just host this on nullify."
+  },
+  {
+    "start": 931.83,
+    "end": 934.79,
+    "text": "So you first need to put it on GitHub."
+  },
+  {
+    "start": 934.79,
+    "end": 941.11,
+    "text": "So if I go into GitHub, this is the source code for my personal website."
+  },
+  {
+    "start": 941.11,
+    "end": 944.31,
+    "text": "And the way I like to learn how to create these things"
+  },
+  {
+    "start": 944.31,
+    "end": 946.95,
+    "text": "is by just putting them side by side."
+  },
+  {
+    "start": 946.95,
+    "end": 956.06,
+    "text": "So if I go to my personal website here,"
+  },
+  {
+    "start": 956.06,
+    "end": 958.38,
+    "text": "I look at the index Qmd."
+  },
+  {
+    "start": 958.38,
+    "end": 960.54,
+    "text": "This is where the Qmd looks like."
+  },
+  {
+    "start": 960.54,
+    "end": 962.22,
+    "text": "I don't have much, right?"
+  },
+  {
+    "start": 962.22,
+    "end": 966.38,
+    "text": "And then here I have the research tab, which"
+  },
+  {
+    "start": 966.54,
+    "end": 970.54,
+    "text": "corresponds to the research Qmd."
+  },
+  {
+    "start": 970.54,
+    "end": 975.58,
+    "text": "And then you can see it's just marked down where I link to other"
+  },
+  {
+    "start": 975.58,
+    "end": 977.58,
+    "text": "whips that I've created."
+  },
+  {
+    "start": 977.58,
+    "end": 981.9,
+    "text": "And then here I've also linked a PDF for my"
+  },
+  {
+    "start": 983.9,
+    "end": 984.78,
+    "text": "publication."
+  },
+  {
+    "start": 984.78,
+    "end": 987.58,
+    "text": "So that's the research tab."
+  },
+  {
+    "start": 987.58,
+    "end": 989.02,
+    "text": "Then you go into the teaching tab."
+  },
+  {
+    "start": 990.7,
+    "end": 994.3,
+    "text": "And that goes with the teaching Qmd file."
+  },
+  {
+    "start": 994.3,
+    "end": 997.34,
+    "text": "So this is what the Qmd file looks like."
+  },
+  {
+    "start": 997.34,
+    "end": 999.82,
+    "text": "These are all the courses that I've taught,"
+  },
+  {
+    "start": 999.82,
+    "end": 1002.62,
+    "text": "or I have built websites for."
+  },
+  {
+    "start": 1002.62,
+    "end": 1005.74,
+    "text": "So I like to list them out that terms that I've taught it."
+  },
+  {
+    "start": 1005.74,
+    "end": 1007.26,
+    "text": "And so on."
+  },
+  {
+    "start": 1007.26,
+    "end": 1014.94,
+    "text": "If here, for example, when I click on the practice of statistical consulting,"
+  },
+  {
+    "start": 1014.94,
+    "end": 1020.62,
+    "text": "and where I put the recordings is I go into my teaching folder."
+  },
+  {
+    "start": 1020.62,
+    "end": 1025.1,
+    "text": "And then here I have the stats 140 Qmd."
+  },
+  {
+    "start": 1025.1,
+    "end": 1026.62,
+    "text": "So I put them side by side."
+  },
+  {
+    "start": 1026.62,
+    "end": 1032.78,
+    "text": "And you get to see how I built this page for the consulting"
+  },
+  {
+    "start": 1032.78,
+    "end": 1034.62,
+    "text": "course specifically."
+  },
+  {
+    "start": 1034.62,
+    "end": 1036.54,
+    "text": "So this is kind of what it looks like."
+  },
+  {
+    "start": 1036.54,
+    "end": 1039.34,
+    "text": "And of course, we will dive deeper into it."
+  },
+  {
+    "start": 1039.34,
+    "end": 1043.66,
+    "text": "Next week, I'll explain all of this."
+  },
+  {
+    "start": 1043.66,
+    "end": 1045.66,
+    "text": "It might be looking intimidating at first,"
+  },
+  {
+    "start": 1045.66,
+    "end": 1052.07,
+    "text": "but it's really easy to figure out once you get used to."
+  },
+  {
+    "start": 1052.07,
+    "end": 1054.79,
+    "text": "Yeah, most files, all right."
+  },
+  {
+    "start": 1054.79,
+    "end": 1056.31,
+    "text": "But that's the structure of my website."
+  },
+  {
+    "start": 1056.31,
+    "end": 1059.75,
+    "text": "And then by me, just having them side by side is the best way"
+  },
+  {
+    "start": 1059.75,
+    "end": 1062.71,
+    "text": "to learn how to build this stuff."
+  },
+  {
+    "start": 1062.71,
+    "end": 1068.07,
+    "text": "So let's actually go back and post our website."
+  },
+  {
+    "start": 1068.07,
+    "end": 1073.43,
+    "text": "So go on to repositories, create on new repository."
+  },
+  {
+    "start": 1073.43,
+    "end": 1077.43,
+    "text": "And this is going to be, you should call it personal website,"
+  },
+  {
+    "start": 1077.43,
+    "end": 1080.79,
+    "text": "or whatever you want."
+  },
+  {
+    "start": 1080.95,
+    "end": 1088.71,
+    "text": "I'm just going to call it stats 140, XP, website, demo."
+  },
+  {
+    "start": 1088.71,
+    "end": 1090.39,
+    "text": "And then this needs to be public."
+  },
+  {
+    "start": 1090.39,
+    "end": 1091.59,
+    "text": "Oh, it doesn't have to be public."
+  },
+  {
+    "start": 1091.59,
+    "end": 1092.71,
+    "text": "It could be private."
+  },
+  {
+    "start": 1092.71,
+    "end": 1094.71,
+    "text": "But it's recommended that you have a public,"
+  },
+  {
+    "start": 1094.71,
+    "end": 1097.91,
+    "text": "so all the people can see how you build your website on this"
+  },
+  {
+    "start": 1097.91,
+    "end": 1102.55,
+    "text": "you have personal information that you don't want to share."
+  },
+  {
+    "start": 1102.55,
+    "end": 1103.91,
+    "text": "Or at least a source code."
+  },
+  {
+    "start": 1103.91,
+    "end": 1108.07,
+    "text": "You can make a private but it's a little better just to have a public."
+  },
+  {
+    "start": 1108.07,
+    "end": 1109.59,
+    "text": "So I'm going to keep it public."
+  },
+  {
+    "start": 1109.59,
+    "end": 1111.75,
+    "text": "Don't change anything here."
+  },
+  {
+    "start": 1111.75,
+    "end": 1116.68,
+    "text": "And then create repository, all right."
+  },
+  {
+    "start": 1116.68,
+    "end": 1122.04,
+    "text": "Since we have already initialized a repository,"
+  },
+  {
+    "start": 1122.04,
+    "end": 1125.16,
+    "text": "remember when we created the project to create,"
+  },
+  {
+    "start": 1125.16,
+    "end": 1127.8,
+    "text": "get repository, so we already have a repository."
+  },
+  {
+    "start": 1127.8,
+    "end": 1130.44,
+    "text": "Like we're already checking things locally."
+  },
+  {
+    "start": 1130.44,
+    "end": 1132.36,
+    "text": "And I would just have to store those gates"
+  },
+  {
+    "start": 1132.36,
+    "end": 1135.48,
+    "text": "and to the cloud through GitHub."
+  },
+  {
+    "start": 1135.48,
+    "end": 1139.32,
+    "text": "So what we're going to do is we're going to go into the terminal,"
+  },
+  {
+    "start": 1139.32,
+    "end": 1144.04,
+    "text": "type control C, command C, just to exit the local host."
+  },
+  {
+    "start": 1144.04,
+    "end": 1145.88,
+    "text": "So you see how it's no longer there."
+  },
+  {
+    "start": 1147.72,
+    "end": 1153.08,
+    "text": "And then we're going to do get at period to add all of the files."
+  },
+  {
+    "start": 1155.56,
+    "end": 1156.68,
+    "text": "You can click on refresh."
+  },
+  {
+    "start": 1156.68,
+    "end": 1158.92,
+    "text": "You see that everything's been added."
+  },
+  {
+    "start": 1158.92,
+    "end": 1161.4,
+    "text": "You don't have to use this click pointing click interface."
+  },
+  {
+    "start": 1161.4,
+    "end": 1163.48,
+    "text": "You can do everything through the terminal."
+  },
+  {
+    "start": 1163.48,
+    "end": 1166.44,
+    "text": "And I recommend that you use the terminal when you're"
+  },
+  {
+    "start": 1166.44,
+    "end": 1169.8,
+    "text": "pushing commits to GitHub just so you're comfortable and not"
+  },
+  {
+    "start": 1169.88,
+    "end": 1174.52,
+    "text": "dependent on a IDE because this is very specific to our studio."
+  },
+  {
+    "start": 1174.52,
+    "end": 1176.28,
+    "text": "Only where you click on the files."
+  },
+  {
+    "start": 1176.28,
+    "end": 1178.2,
+    "text": "Then you click on command and then you click on push,"
+  },
+  {
+    "start": 1178.2,
+    "end": 1179.88,
+    "text": "which is easy."
+  },
+  {
+    "start": 1179.88,
+    "end": 1183.48,
+    "text": "But you need you should be able to work around the terminal."
+  },
+  {
+    "start": 1183.48,
+    "end": 1188.2,
+    "text": "So get at git commit and then the message is just going to be"
+  },
+  {
+    "start": 1188.2,
+    "end": 1189.48,
+    "text": "initial commit."
+  },
+  {
+    "start": 1189.48,
+    "end": 1192.04,
+    "text": "This is our initial commit to the repository."
+  },
+  {
+    "start": 1192.04,
+    "end": 1194.92,
+    "text": "And we've committed all of the changes that we've tracked."
+  },
+  {
+    "start": 1194.92,
+    "end": 1197.64,
+    "text": "If I click on refresh here, you'll see that they're no longer there."
+  },
+  {
+    "start": 1197.64,
+    "end": 1199.4,
+    "text": "Because I finally committed it."
+  },
+  {
+    "start": 1199.4,
+    "end": 1203.16,
+    "text": "I'm committed to pushing these changes to my repository."
+  },
+  {
+    "start": 1203.16,
+    "end": 1207.24,
+    "text": "Now what I want to go is back into the git hub repository."
+  },
+  {
+    "start": 1207.24,
+    "end": 1212.04,
+    "text": "And what we're going to do is you only have to do this once when you're pushing for the first time to get"
+  },
+  {
+    "start": 1212.04,
+    "end": 1215.56,
+    "text": "hub is add the remote connection."
+  },
+  {
+    "start": 1215.56,
+    "end": 1217.96,
+    "text": "Where is this going to be stored in?"
+  },
+  {
+    "start": 1217.96,
+    "end": 1223.24,
+    "text": "And it's going to be stored in this following remote location."
+  },
+  {
+    "start": 1223.24,
+    "end": 1225.96,
+    "text": "So the location of your repository."
+  },
+  {
+    "start": 1226.04,
+    "end": 1229.8,
+    "text": "So just copy paste the block once you've added and committed."
+  },
+  {
+    "start": 1229.8,
+    "end": 1232.28,
+    "text": "So get add git commit."
+  },
+  {
+    "start": 1232.28,
+    "end": 1235.0,
+    "text": "And then now we're ready to copy paste these commands."
+  },
+  {
+    "start": 1235.0,
+    "end": 1237.72,
+    "text": "So we need to add the remote origin."
+  },
+  {
+    "start": 1237.72,
+    "end": 1239.96,
+    "text": "Change the branch from master to main."
+  },
+  {
+    "start": 1239.96,
+    "end": 1243.56,
+    "text": "And then push all of our content to the main branch."
+  },
+  {
+    "start": 1243.56,
+    "end": 1248.49,
+    "text": "That's the way you want to interpret these this code block."
+  },
+  {
+    "start": 1248.49,
+    "end": 1251.61,
+    "text": "And then just simply copy paste and then click on enter."
+  },
+  {
+    "start": 1251.61,
+    "end": 1259.26,
+    "text": "And we've pushed our content to the repository."
+  },
+  {
+    "start": 1259.26,
+    "end": 1263.58,
+    "text": "So this is just storing it in git hub."
+  },
+  {
+    "start": 1263.58,
+    "end": 1268.54,
+    "text": "Now we need to, you'll see that the site folder."
+  },
+  {
+    "start": 1268.54,
+    "end": 1271.66,
+    "text": "This is where we're going to give the location to another file."
+  },
+  {
+    "start": 1271.66,
+    "end": 1275.5,
+    "text": "So it can be able to host the website appropriately."
+  },
+  {
+    "start": 1275.5,
+    "end": 1280.7,
+    "text": "So go into nullify."
+  },
+  {
+    "start": 1280.7,
+    "end": 1300.78,
+    "text": "And then what you're going to do is, let's see, forget this stuff."
+  },
+  {
+    "start": 1300.78,
+    "end": 1302.3,
+    "text": "Yeah, sorry."
+  },
+  {
+    "start": 1302.3,
+    "end": 1304.22,
+    "text": "What we're going to do is, on the terminal."
+  },
+  {
+    "start": 1304.22,
+    "end": 1305.9,
+    "text": "So let me clear this out."
+  },
+  {
+    "start": 1305.9,
+    "end": 1312.23,
+    "text": "What we're going to do is we're to publish."
+  },
+  {
+    "start": 1312.23,
+    "end": 1315.27,
+    "text": "And then we're going to do nullify."
+  },
+  {
+    "start": 1315.27,
+    "end": 1317.11,
+    "text": "All right."
+  },
+  {
+    "start": 1317.11,
+    "end": 1318.31,
+    "text": "And let's look at the files."
+  },
+  {
+    "start": 1318.31,
+    "end": 1319.75,
+    "text": "How they're going to get affected."
+  },
+  {
+    "start": 1319.75,
+    "end": 1322.71,
+    "text": "So right now we just have the website which is here."
+  },
+  {
+    "start": 1322.71,
+    "end": 1326.07,
+    "text": "And then the files used to create the website."
+  },
+  {
+    "start": 1326.07,
+    "end": 1328.23,
+    "text": "And then the YAMO heading."
+  },
+  {
+    "start": 1328.23,
+    "end": 1330.95,
+    "text": "So now what we're going to do is run this command"
+  },
+  {
+    "start": 1330.95,
+    "end": 1332.47,
+    "text": "for to publish nullify."
+  },
+  {
+    "start": 1333.67,
+    "end": 1337.67,
+    "text": "And then it's asking me, is this my account, which is published with account."
+  },
+  {
+    "start": 1337.67,
+    "end": 1339.75,
+    "text": "To leader of the 60 at GMO.com."
+  },
+  {
+    "start": 1339.75,
+    "end": 1343.19,
+    "text": "And then you're going to say, yes, it's going to use the website"
+  },
+  {
+    "start": 1343.19,
+    "end": 1346.23,
+    "text": "that you used for your git hub account by default."
+  },
+  {
+    "start": 1346.23,
+    "end": 1352.23,
+    "text": "So that's why it's recommended that you create a nullify account through your git hub profile."
+  },
+  {
+    "start": 1352.23,
+    "end": 1352.63,
+    "text": "Right?"
+  },
+  {
+    "start": 1352.63,
+    "end": 1354.47,
+    "text": "So publish with this account."
+  },
+  {
+    "start": 1354.47,
+    "end": 1355.67,
+    "text": "And we're going to click enter."
+  },
+  {
+    "start": 1356.63,
+    "end": 1358.79,
+    "text": "And then it's creating the nullify sites."
+  },
+  {
+    "start": 1359.19,
+    "end": 1361.75,
+    "text": "Let it to a sting."
+  },
+  {
+    "start": 1361.75,
+    "end": 1367.43,
+    "text": "And then here you'll see that it's going to be added to my profile in nullify."
+  },
+  {
+    "start": 1367.43,
+    "end": 1367.75,
+    "text": "Okay."
+  },
+  {
+    "start": 1369.43,
+    "end": 1371.67,
+    "text": "This is the name of the default website."
+  },
+  {
+    "start": 1371.67,
+    "end": 1375.03,
+    "text": "Of course you want to change this, which we go into later."
+  },
+  {
+    "start": 1375.03,
+    "end": 1377.19,
+    "text": "But let's just click on the link and see what it looks like."
+  },
+  {
+    "start": 1378.23,
+    "end": 1379.83,
+    "text": "Open link in new tab."
+  },
+  {
+    "start": 1379.83,
+    "end": 1385.51,
+    "text": "And as you can see, here is our website hosted on this link."
+  },
+  {
+    "start": 1385.51,
+    "end": 1386.95,
+    "text": "Of course, we're going to change it right now."
+  },
+  {
+    "start": 1387.91,
+    "end": 1388.55,
+    "text": "But there you go."
+  },
+  {
+    "start": 1388.55,
+    "end": 1389.83,
+    "text": "It's not a local host."
+  },
+  {
+    "start": 1389.83,
+    "end": 1394.95,
+    "text": "It's not, it's, you could go to this website right now."
+  },
+  {
+    "start": 1394.95,
+    "end": 1396.79,
+    "text": "And then have access to it."
+  },
+  {
+    "start": 1396.79,
+    "end": 1397.67,
+    "text": "All right."
+  },
+  {
+    "start": 1397.67,
+    "end": 1398.79,
+    "text": "So let's change the name."
+  },
+  {
+    "start": 1399.67,
+    "end": 1401.19,
+    "text": "Going to site configurations."
+  },
+  {
+    "start": 1402.87,
+    "end": 1409.98,
+    "text": "And then change the site name and let's put your name."
+  },
+  {
+    "start": 1409.98,
+    "end": 1413.74,
+    "text": "So Jose, Toledo dot nullify."
+  },
+  {
+    "start": 1413.74,
+    "end": 1417.02,
+    "text": "Eventually put my whole name on why not click on save."
+  },
+  {
+    "start": 1418.3,
+    "end": 1420.14,
+    "text": "You could put whatever you want."
+  },
+  {
+    "start": 1420.14,
+    "end": 1424.94,
+    "text": "Now you'll see that it's Jose Toledo.nellify.app."
+  },
+  {
+    "start": 1425.74,
+    "end": 1430.86,
+    "text": "To host it for free, you do need to have the nullify.app extension."
+  },
+  {
+    "start": 1430.86,
+    "end": 1435.42,
+    "text": "If you want a dot com domain, it does cost money."
+  },
+  {
+    "start": 1435.42,
+    "end": 1437.5,
+    "text": "It's relatively inexpensive."
+  },
+  {
+    "start": 1437.5,
+    "end": 1439.66,
+    "text": "It's about a dollar or a month."
+  },
+  {
+    "start": 1439.66,
+    "end": 1442.86,
+    "text": "If you want to learn how to do that, then I can show you"
+  },
+  {
+    "start": 1443.74,
+    "end": 1445.26,
+    "text": "later."
+  },
+  {
+    "start": 1447.26,
+    "end": 1450.38,
+    "text": "Otherwise, you just need to have that dot nullify dot app."
+  },
+  {
+    "start": 1450.38,
+    "end": 1453.98,
+    "text": "Same with websites that are built through GitHub where it's like GitHub.io."
+  },
+  {
+    "start": 1455.02,
+    "end": 1457.42,
+    "text": "That's like the free, that's the way to get it for free."
+  },
+  {
+    "start": 1457.42,
+    "end": 1460.7,
+    "text": "So you could, you could host as many websites as you want."
+  },
+  {
+    "start": 1460.7,
+    "end": 1463.9,
+    "text": "You just need to have the nullify dot app extension."
+  },
+  {
+    "start": 1463.9,
+    "end": 1467.34,
+    "text": "And if you want to change domain, it costs some money."
+  },
+  {
+    "start": 1468.94,
+    "end": 1470.06,
+    "text": "But not too much."
+  },
+  {
+    "start": 1470.78,
+    "end": 1471.26,
+    "text": "All right."
+  },
+  {
+    "start": 1471.26,
+    "end": 1473.02,
+    "text": "So there you go."
+  },
+  {
+    "start": 1473.98,
+    "end": 1476.06,
+    "text": "But let's make our life easy."
+  },
+  {
+    "start": 1477.9,
+    "end": 1484.38,
+    "text": "Is what we're going to do now is we're going to give access,"
+  },
+  {
+    "start": 1484.38,
+    "end": 1487.18,
+    "text": "give nullify access to the repository."
+  },
+  {
+    "start": 1487.18,
+    "end": 1490.94,
+    "text": "So each time that I make changes to the repository,"
+  },
+  {
+    "start": 1490.94,
+    "end": 1493.74,
+    "text": "the website is going to build automatically."
+  },
+  {
+    "start": 1493.74,
+    "end": 1497.66,
+    "text": "Because right now what we have to do is we have to do this portal"
+  },
+  {
+    "start": 1497.66,
+    "end": 1501.58,
+    "text": "Polish nullify render that hosted on GitHub."
+  },
+  {
+    "start": 1501.58,
+    "end": 1503.82,
+    "text": "And then publish it to nullify."
+  },
+  {
+    "start": 1503.82,
+    "end": 1506.06,
+    "text": "And it's just, it could be annoying."
+  },
+  {
+    "start": 1506.06,
+    "end": 1511.26,
+    "text": "So what we're going to do is just give nullify access to the site folder."
+  },
+  {
+    "start": 1511.26,
+    "end": 1514.38,
+    "text": "And then each time the site folder changes,"
+  },
+  {
+    "start": 1514.38,
+    "end": 1517.02,
+    "text": "nullify is going to get notified."
+  },
+  {
+    "start": 1517.02,
+    "end": 1520.3,
+    "text": "And then it's going to automatically build the website"
+  },
+  {
+    "start": 1520.3,
+    "end": 1522.46,
+    "text": "whenever the site folder changes."
+  },
+  {
+    "start": 1522.46,
+    "end": 1526.62,
+    "text": "So that this way it tracks the changes in your repository."
+  },
+  {
+    "start": 1526.7,
+    "end": 1528.86,
+    "text": "And knows when the site folder was changed."
+  },
+  {
+    "start": 1528.86,
+    "end": 1531.18,
+    "text": "And it's going to update your website automatically."
+  },
+  {
+    "start": 1531.18,
+    "end": 1535.58,
+    "text": "So you don't really have to touch anything on nullify too much."
+  },
+  {
+    "start": 1535.58,
+    "end": 1539.1,
+    "text": "So here you'll see that the published nullify,"
+  },
+  {
+    "start": 1539.1,
+    "end": 1541.82,
+    "text": "the public, when we rent portal published nullify,"
+  },
+  {
+    "start": 1541.82,
+    "end": 1544.78,
+    "text": "if created a file called publish gamma."
+  },
+  {
+    "start": 1546.62,
+    "end": 1550.46,
+    "text": "And this is the ID to the project on change it."
+  },
+  {
+    "start": 1550.46,
+    "end": 1553.66,
+    "text": "But you do want to change this URL to the one we just created."
+  },
+  {
+    "start": 1553.66,
+    "end": 1555.5,
+    "text": "So let's just do that right now."
+  },
+  {
+    "start": 1557.02,
+    "end": 1560.86,
+    "text": "Click paste it, click on save."
+  },
+  {
+    "start": 1560.86,
+    "end": 1561.42,
+    "text": "And that's it."
+  },
+  {
+    "start": 1561.42,
+    "end": 1563.98,
+    "text": "We don't have to mess with anything here."
+  },
+  {
+    "start": 1563.98,
+    "end": 1568.22,
+    "text": "Now what we want to do is just to demonstrate"
+  },
+  {
+    "start": 1568.22,
+    "end": 1571.34,
+    "text": "that each time we make changes to the site folder,"
+  },
+  {
+    "start": 1571.34,
+    "end": 1572.7,
+    "text": "the website is going to update."
+  },
+  {
+    "start": 1572.7,
+    "end": 1575.82,
+    "text": "I'm going to change this file here."
+  },
+  {
+    "start": 1575.82,
+    "end": 1580.78,
+    "text": "And then click on, it's just through RU North 10,"
+  },
+  {
+    "start": 1580.78,
+    "end": 1583.66,
+    "text": "which is going to generate 10 random files."
+  },
+  {
+    "start": 1584.62,
+    "end": 1588.46,
+    "text": "Do Quirtual Render."
+  },
+  {
+    "start": 1589.82,
+    "end": 1592.46,
+    "text": "It's going to update all of the files."
+  },
+  {
+    "start": 1592.46,
+    "end": 1596.14,
+    "text": "And then this is the Quirtual Preview just to see what it looks like."
+  },
+  {
+    "start": 1597.66,
+    "end": 1601.66,
+    "text": "This is the local host is not the website posted."
+  },
+  {
+    "start": 1601.66,
+    "end": 1603.26,
+    "text": "So this is where it should look like."
+  },
+  {
+    "start": 1603.26,
+    "end": 1606.94,
+    "text": "Once we push the commits to our repository nullify,"
+  },
+  {
+    "start": 1606.94,
+    "end": 1609.58,
+    "text": "we'll keep track of changes."
+  },
+  {
+    "start": 1609.58,
+    "end": 1613.58,
+    "text": "So the way to do that is go in"
+  },
+  {
+    "start": 1613.58,
+    "end": 1619.72,
+    "text": "to just go to back home."
+  },
+  {
+    "start": 1619.72,
+    "end": 1621.08,
+    "text": "So we can see where it's at right now."
+  },
+  {
+    "start": 1621.08,
+    "end": 1623.48,
+    "text": "It's this one and it's a little confusing with this one."
+  },
+  {
+    "start": 1624.28,
+    "end": 1626.68,
+    "text": "You should only have one if you've done it successfully."
+  },
+  {
+    "start": 1626.68,
+    "end": 1629.64,
+    "text": "And what we're going to do is go into site configurations."
+  },
+  {
+    "start": 1631.8,
+    "end": 1636.2,
+    "text": "And what we're going to do is go into build and deploy."
+  },
+  {
+    "start": 1637.24,
+    "end": 1639.64,
+    "text": "And we're going to link a repository."
+  },
+  {
+    "start": 1642.33,
+    "end": 1646.09,
+    "text": "So just to demonstrate it again, find your website."
+  },
+  {
+    "start": 1646.17,
+    "end": 1647.05,
+    "text": "You should only have one."
+  },
+  {
+    "start": 1648.25,
+    "end": 1649.77,
+    "text": "Go to site configurations."
+  },
+  {
+    "start": 1650.81,
+    "end": 1653.05,
+    "text": "And then go into build and deploy."
+  },
+  {
+    "start": 1653.69,
+    "end": 1655.13,
+    "text": "Link your repository."
+  },
+  {
+    "start": 1656.17,
+    "end": 1657.05,
+    "text": "Click on gate hub."
+  },
+  {
+    "start": 1660.1,
+    "end": 1662.1,
+    "text": "And then you're going to search for the repo."
+  },
+  {
+    "start": 1664.02,
+    "end": 1666.18,
+    "text": "In this case, I call the, what would it stats?"
+  },
+  {
+    "start": 1670.34,
+    "end": 1673.06,
+    "text": "Oh, configure nullify app on gate hub."
+  },
+  {
+    "start": 1673.06,
+    "end": 1675.86,
+    "text": "So these are the ones that have given permission."
+  },
+  {
+    "start": 1675.86,
+    "end": 1680.1,
+    "text": "So these are all the repositories that have access nullify has access to."
+  },
+  {
+    "start": 1680.74,
+    "end": 1682.34,
+    "text": "You can even make a private one."
+  },
+  {
+    "start": 1682.34,
+    "end": 1685.86,
+    "text": "So that's why I said, doesn't really matter if it's private or public,"
+  },
+  {
+    "start": 1685.86,
+    "end": 1689.22,
+    "text": "because you're getting nullify permission to look at it."
+  },
+  {
+    "start": 1689.62,
+    "end": 1694.18,
+    "text": "So other people can look at your repository if it's private,"
+  },
+  {
+    "start": 1694.18,
+    "end": 1695.54,
+    "text": "but nullify can."
+  },
+  {
+    "start": 1695.54,
+    "end": 1697.14,
+    "text": "And then it's still going to be hosted."
+  },
+  {
+    "start": 1697.14,
+    "end": 1701.3,
+    "text": "So sometimes people like to hide the source code for how they build their website."
+  },
+  {
+    "start": 1701.78,
+    "end": 1704.9,
+    "text": "Primarily, it's for monetary reasons."
+  },
+  {
+    "start": 1704.9,
+    "end": 1709.14,
+    "text": "So configure the nullify app on gate hub, click configure."
+  },
+  {
+    "start": 1710.5,
+    "end": 1714.66,
+    "text": "And what you're going to do is scroll down to repository access."
+  },
+  {
+    "start": 1714.66,
+    "end": 1717.54,
+    "text": "I recommend, I don't recommend putting all repositories,"
+  },
+  {
+    "start": 1717.54,
+    "end": 1720.98,
+    "text": "because then that gives nullify access to every single one of your repositories."
+  },
+  {
+    "start": 1721.78,
+    "end": 1725.54,
+    "text": "Click on only select repository, select the repository,"
+  },
+  {
+    "start": 1725.54,
+    "end": 1729.54,
+    "text": "and it's the one that we just created, which was whatever you called it."
+  },
+  {
+    "start": 1729.54,
+    "end": 1734.5,
+    "text": "I called it stats in 140 XP, I call it wrong,"
+  },
+  {
+    "start": 1734.5,
+    "end": 1736.02,
+    "text": "but it's the XP website demo."
+  },
+  {
+    "start": 1737.3,
+    "end": 1740.18,
+    "text": "And now nullify has access to it, so click on save."
+  },
+  {
+    "start": 1743.77,
+    "end": 1744.89,
+    "text": "It should be here."
+  },
+  {
+    "start": 1744.89,
+    "end": 1746.01,
+    "text": "So there you go."
+  },
+  {
+    "start": 1746.01,
+    "end": 1747.21,
+    "text": "Now it has access to it."
+  },
+  {
+    "start": 1747.21,
+    "end": 1750.97,
+    "text": "It's seen that I have in the last time I changed it, there was eight minutes ago."
+  },
+  {
+    "start": 1751.61,
+    "end": 1753.61,
+    "text": "Now, we're good."
+  },
+  {
+    "start": 1754.65,
+    "end": 1758.68,
+    "text": "So, oh, sorry, I have to click it."
+  },
+  {
+    "start": 1759.56,
+    "end": 1764.44,
+    "text": "And then the base directory."
+  },
+  {
+    "start": 1764.44,
+    "end": 1766.44,
+    "text": "So right now it's on the main branch."
+  },
+  {
+    "start": 1766.44,
+    "end": 1769.24,
+    "text": "So going back to our website, you could have branches."
+  },
+  {
+    "start": 1770.12,
+    "end": 1773.48,
+    "text": "What nullify is saying is right here, it's on the main branch,"
+  },
+  {
+    "start": 1773.48,
+    "end": 1778.84,
+    "text": "but what folder specifically is the website on?"
+  },
+  {
+    "start": 1778.84,
+    "end": 1780.92,
+    "text": "And it's going to be on the site folder."
+  },
+  {
+    "start": 1780.92,
+    "end": 1782.68,
+    "text": "Okay, because this is not your website."
+  },
+  {
+    "start": 1782.68,
+    "end": 1785.24,
+    "text": "This is just the files used to create your website."
+  },
+  {
+    "start": 1785.32,
+    "end": 1788.92,
+    "text": "This folder here is the material for the website."
+  },
+  {
+    "start": 1790.2,
+    "end": 1794.68,
+    "text": "So here, we're going to do underscore site, okay?"
+  },
+  {
+    "start": 1800.82,
+    "end": 1806.9,
+    "text": "So you see how it says published directory, the underscore site folder, okay?"
+  },
+  {
+    "start": 1808.1,
+    "end": 1811.14,
+    "text": "And there you go, deploy stats website demo."
+  },
+  {
+    "start": 1811.78,
+    "end": 1817.22,
+    "text": "So branch to deploy is main, base directory is the site folder,"
+  },
+  {
+    "start": 1817.22,
+    "end": 1822.02,
+    "text": "do not put the slash, just leave it as dot underscore site."
+  },
+  {
+    "start": 1822.9,
+    "end": 1824.98,
+    "text": "And then deploy stats website demo."
+  },
+  {
+    "start": 1826.1,
+    "end": 1830.73,
+    "text": "Okay, and there you go."
+  },
+  {
+    "start": 1830.73,
+    "end": 1834.89,
+    "text": "So now my website is linked to my GitHub repository."
+  },
+  {
+    "start": 1834.89,
+    "end": 1841.37,
+    "text": "And anytime this site folder changes, this website is going to render automatically."
+  },
+  {
+    "start": 1841.37,
+    "end": 1842.73,
+    "text": "So let's test that out."
+  },
+  {
+    "start": 1842.73,
+    "end": 1844.33,
+    "text": "Control C, we've made changes."
+  },
+  {
+    "start": 1845.05,
+    "end": 1849.13,
+    "text": "So let's just do it again, you know, let's do that,"
+  },
+  {
+    "start": 1849.13,
+    "end": 1852.25,
+    "text": "but just to for set, you see how it output created the site folder."
+  },
+  {
+    "start": 1852.97,
+    "end": 1857.21,
+    "text": "And then on my gate, you could see the changes that were made."
+  },
+  {
+    "start": 1857.21,
+    "end": 1859.61,
+    "text": "Okay, so now let's add the changes."
+  },
+  {
+    "start": 1861.37,
+    "end": 1865.45,
+    "text": "Get that here, get commit."
+  },
+  {
+    "start": 1865.45,
+    "end": 1870.17,
+    "text": "And then it's going to put nullify website."
+  },
+  {
+    "start": 1873.21,
+    "end": 1874.81,
+    "text": "And then I'm just going to do get push."
+  },
+  {
+    "start": 1876.33,
+    "end": 1878.81,
+    "text": "I've pushed the changes that I've made to my website."
+  },
+  {
+    "start": 1879.53,
+    "end": 1885.21,
+    "text": "And then here, you'll see, let's go to the repository to see that it did change"
+  },
+  {
+    "start": 1885.93,
+    "end": 1890.09,
+    "text": "appropriately. So there you go. And then we have the policy demo."
+  },
+  {
+    "start": 1890.09,
+    "end": 1891.85,
+    "text": "You don't have to change anything afterwards."
+  },
+  {
+    "start": 1892.57,
+    "end": 1894.41,
+    "text": "And then we have the site folder."
+  },
+  {
+    "start": 1894.41,
+    "end": 1896.89,
+    "text": "It's going to take some time, but click on refresh."
+  },
+  {
+    "start": 1896.89,
+    "end": 1899.29,
+    "text": "The last time it was published was in 1134."
+  },
+  {
+    "start": 1899.29,
+    "end": 1904.41,
+    "text": "If I click on refresh, now it's been published at 1133,"
+  },
+  {
+    "start": 1904.41,
+    "end": 1907.69,
+    "text": "because it tracked the changes that were made to the site folder."
+  },
+  {
+    "start": 1907.85,
+    "end": 1910.17,
+    "text": "And then if I click on the new link,"
+  },
+  {
+    "start": 1910.89,
+    "end": 1916.41,
+    "text": "it should have the updated changes that we just made."
+  },
+  {
+    "start": 1919.24,
+    "end": 1921.4,
+    "text": "And then you're going to repeat this process over and over."
+  },
+  {
+    "start": 1921.4,
+    "end": 1927.8,
+    "text": "So you're going to change the file, put your about at your profile picture."
+  },
+  {
+    "start": 1928.52,
+    "end": 1931.0,
+    "text": "You add an entry to your CV."
+  },
+  {
+    "start": 1931.0,
+    "end": 1932.68,
+    "text": "You create a new blog post."
+  },
+  {
+    "start": 1932.68,
+    "end": 1934.44,
+    "text": "You're going to update the course of document."
+  },
+  {
+    "start": 1935.08,
+    "end": 1936.2,
+    "text": "You're going to render it."
+  },
+  {
+    "start": 1936.2,
+    "end": 1939.16,
+    "text": "And then you're going to do get add, get commit, get push."
+  },
+  {
+    "start": 1939.16,
+    "end": 1941.16,
+    "text": "And you're going to do it."
+  }
+]
