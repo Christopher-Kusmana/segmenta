@@ -24,7 +24,7 @@ def process_video(video_file, youtube_url, progress=gr.Progress()):
 
         # 0–10%: STT Loading
         progress(0.05, desc="Initializing Whisper engine...")
-        progress(0.10, desc="Transcribing video (this one takes the longest 😴)")
+        progress(0.10, desc="Transcribing video (this one takes the longest 😴 ... but no worries, it runs in the background!)")
 
         # Run full pipeline (STT + NLP)
         results = run_unified_pipeline(
