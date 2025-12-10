@@ -16,7 +16,7 @@ Produce a structured output that strictly adheres to the following format.
 4.  The 'Keywords' section must be a single, comma-separated string containing 5 to 8 technical keywords. Do not include any introductory text or closing punctuation.
 
 **OUTPUT STRUCTURE (EXACTLY AS SHOWN):**
-Title: <short, descriptive chapter title, max 8 words>
+Title: <short, descriptive chapter title, max 15 words. **FOCUS on the specific concept, action, or technical mechanism introduced in this segment.** Avoid generic phrases like "Introduction to..." or "Overview of...">
 
 Summary: <single paragraph, 2–4 clear, accurate sentences of the main ideas. No introductory phrases or fluff.>
 

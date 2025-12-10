@@ -83,14 +83,30 @@ def evaluate_topics(chunks, labels, normed):
 
 
 def auto_select_topic_count(chunks, embeddings, candidates=range(3, 11)):
-    """Try multiple topic counts and select the best one."""
+    """Try multiple topic counts and select the best one safely."""
+    n_chunks = len(chunks)
+    if n_chunks < 2:
+        return 1, [0] * n_chunks, None, 0    # trivial fallback
+
+    # Clamp candidates so k <= number of chunks
+    # INCREASED MAX CANDIDATES TO ALLOW MORE TOPICS FOR LONGER TRANSCRIPTS
+    valid_candidates = [k for k in range(3, min(n_chunks, 15) + 1) if 2 <= k <= n_chunks] # Changed range(3, 11) to range(3, 15) + 1
+
+    if not valid_candidates:
+        valid_candidates = [min(2, n_chunks)]  # at least 2 if possible
+
     best_score = -1
     best_k = None
     best_labels = None
     best_normed = None
 
-    for k in candidates:
-        labels, normed = cluster_embeddings(embeddings, n_clusters=k)
+    for k in valid_candidates:
+        try:
+            labels, normed = cluster_embeddings(embeddings, n_clusters=k)
+        except Exception as e:
+            print(f"[auto_select_topic_count] Skipping k={k}: {e}")
+            continue
+
         score = evaluate_topics(chunks, labels, normed)
 
         if score > best_score:
@@ -99,8 +115,13 @@ def auto_select_topic_count(chunks, embeddings, candidates=range(3, 11)):
             best_labels = labels
             best_normed = normed
 
-    return best_k, best_labels, best_normed, best_score
+    # Final fallback if none selected
+    if best_k is None:
+        best_k = 2 if n_chunks >= 2 else 1
+        best_labels = [0] * n_chunks
+        best_normed = None
 
+    return best_k, best_labels, best_normed, best_score
 
 # Refinement and tuning
 
@@ -109,6 +130,9 @@ def validate_boundaries_with_similarity(boundaries, sims, high_sim_threshold=0.5
     Keep all cluster boundaries unless similarity is VERY high.
     This is intentionally permissive to avoid eliminating true topics.
     """
+    # INCREASED THRESHOLD: Making the boundary validator more permissive (less likely to merge)
+    high_sim_threshold = 0.65 # Original: 0.55
+
     new = [boundaries[0]]
     for b in boundaries[1:]:
         if b == 0 or b >= len(sims):
@@ -134,6 +158,9 @@ def enforce_min_topic_length(boundaries, chunks, min_chunks=3):
     Merge topics smaller than min_chunks into the previous topic.
     This is the simplest and highest-impact fix.
     """
+    # DECREASED MIN_CHUNKS: Allowing for smaller, more precise topics (less aggressive merging)
+    min_chunks = 2 # Original: 3
+    
     new = [boundaries[0]]
 
     for i in range(1, len(boundaries)):
@@ -175,6 +202,7 @@ def topic_segmentation(chunks, embeddings):
     """Automatically selects topic count and segments."""
     
     # k-topic numbers auto-selection
+    # Note: candidates is internally fixed in auto_select_topic_count
     best_k, labels, normed, score = auto_select_topic_count(
         chunks, embeddings, candidates=range(3, 11)
     )
@@ -184,10 +212,11 @@ def topic_segmentation(chunks, embeddings):
     # Similarity smoothing
     sims = smooth(compute_similarity(normed), k=3)
 
+    # The validate_boundaries_with_similarity function now uses high_sim_threshold=0.65 internally
     boundaries = validate_boundaries_with_similarity(raw_boundaries, sims)
     
-    # Merge too-short topics
-    boundaries = enforce_min_topic_length(boundaries, chunks, min_chunks=3)
+    # The enforce_min_topic_length function now uses min_chunks=2 internally
+    boundaries = enforce_min_topic_length(boundaries, chunks)
     
     topics = group_chunks_into_topics(chunks, boundaries)
 
