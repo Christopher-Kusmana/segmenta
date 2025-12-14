@@ -125,13 +125,12 @@ def auto_select_topic_count(chunks, embeddings, candidates=range(3, 11)):
 
 # Refinement and tuning
 
-def validate_boundaries_with_similarity(boundaries, sims, high_sim_threshold=0.55):
+def validate_boundaries_with_similarity(boundaries, sims, high_sim_threshold=0.4):
     """
     Keep all cluster boundaries unless similarity is VERY high.
     This is intentionally permissive to avoid eliminating true topics.
     """
-    # INCREASED THRESHOLD: Making the boundary validator more permissive (less likely to merge)
-    high_sim_threshold = 0.65 # Original: 0.55
+    # INCREASED THRESHOLD: Making the boundary validator more permissive (less likely to merge) 
 
     new = [boundaries[0]]
     for b in boundaries[1:]:
@@ -159,7 +158,7 @@ def enforce_min_topic_length(boundaries, chunks, min_chunks=3):
     This is the simplest and highest-impact fix.
     """
     # DECREASED MIN_CHUNKS: Allowing for smaller, more precise topics (less aggressive merging)
-    min_chunks = 2 # Original: 3
+    min_chunks = 2 
     
     new = [boundaries[0]]
 
@@ -202,7 +201,6 @@ def topic_segmentation(chunks, embeddings):
     """Automatically selects topic count and segments."""
     
     # k-topic numbers auto-selection
-    # Note: candidates is internally fixed in auto_select_topic_count
     best_k, labels, normed, score = auto_select_topic_count(
         chunks, embeddings, candidates=range(3, 11)
     )
@@ -212,10 +210,8 @@ def topic_segmentation(chunks, embeddings):
     # Similarity smoothing
     sims = smooth(compute_similarity(normed), k=3)
 
-    # The validate_boundaries_with_similarity function now uses high_sim_threshold=0.65 internally
     boundaries = validate_boundaries_with_similarity(raw_boundaries, sims)
     
-    # The enforce_min_topic_length function now uses min_chunks=2 internally
     boundaries = enforce_min_topic_length(boundaries, chunks)
     
     topics = group_chunks_into_topics(chunks, boundaries)
